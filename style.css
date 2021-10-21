@@ -1,0 +1,73 @@
+.heading{
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    }
+
+.note {
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+}
+
+body{
+    background-size: cover;
+}
+
+.div_speed{
+    margin: 20px;
+    float: right;
+}
+
+.img_speed{
+    
+    width: 150px;
+    border-radius: 40px;
+}
+
+.btn_speed{
+    background-image: linear-gradient(rgb(164, 172, 250), rgb(0, 68, 255));
+    height: 70px;
+    width: 100px;
+     font-family: 'Festive', cursive;
+font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    color: white;
+}
+
+.div_vol{
+    float: right;
+    margin: 20px;
+}
+
+.img_vol{
+    
+    width: 150px;
+    border-radius: 40px;
+}
+
+.btn_vol{
+    background-image: linear-gradient(rgb(164, 172, 250), rgb(0, 68, 255));
+    height: 70px;
+    width: 100px;
+     font-family: 'Festive', cursive;
+font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    color: white;
+}
+
+canvas{
+    box-shadow: 5px 5px 5px grey;
+    padding: 0;
+    animation: Ani 5s infinite;
+    float: left;
+    
+    
+    
+}
+
+@keyframes  Ani {
+    from{border-radius: 0; border-color: blue; border-width: 15px; border-style: dashed;}
+    to{ border-radius: 10; border-color: rgb(134, 187, 218); border-width: 5px; border-style: solid; }
+}
